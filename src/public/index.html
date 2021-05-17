@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Timezone testing</h1>
+    </div>
+    <div id = "container">
+      <div class="select-box">
+        <input type = "text" name = "name" id = "name" class="textbox" placeholder="Your name here">
+        <input type = "email" name = "email" id = "email" class="textbox" placeholder="Your Email here">
+        <button id = "buttonS">SEND</button>
+      </div>
+    </div>
+    <div style="align-items: center;">
+      <div class="title">
+        <h1>Users Created</h1>
+      </div>
+      <div >
+          <table style="align-items: center;">
+              <thead style="border-bottom: dimgray;">
+                  <td>Name</td>
+                  <td>Email</td>
+                  <td>Created At</td>
+              </thead>
+              <tbody id = "user">
+                  
+              </tbody>
+          </table>
+           <p id="username"></p>
+           <p id="useremail"></p>
+           <p id="time"></p>
+      </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src = "script.js"></script>
+  </body>
+</html>
