@@ -13,7 +13,7 @@ export class AppController {
     return this.appService.getUsers();
   }
 
-  @Post()
+  @Post('/create')
   createUser(@Body() createUserDto: CreateUserDto): Promise<User> {
     return this.appService.createUser(createUserDto);
   }
